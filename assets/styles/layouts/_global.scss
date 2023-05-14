@@ -1,0 +1,11 @@
+@use"../settings/variables" as var;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background: var.$color1;
+}
