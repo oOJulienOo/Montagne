@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "font1";
+  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family: "font2";
+  src: url(/assets/fonts/Merriweather-Light.ttf);
+}
+@font-face {
+  font-family: "font3";
+  src: url(/assets/fonts/Merriweather-Italic.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +17,51 @@
 }
 
 body {
-  background: #303030;
+  background: #ffffff;
+  font-family: font1, sans-serif;
+}
+
+p {
+  font-family: font2, sans-serif;
+}
+
+label {
+  font-family: font2, sans-serif;
+}
+
+header {
+  height: 100vh;
+  background: url(/assets/images/bg.jpg) center/cover fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+header p {
+  padding: 40px;
+  color: #f3f3f3;
+  font-size: 1.3rem;
+  font-family: font3, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  width: 750px;
+  text-align: center;
+  letter-spacing: 6px;
+  margin: 0 auto;
+}
+
+.header-title {
+  padding-top: 300px;
+}
+
+.header-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

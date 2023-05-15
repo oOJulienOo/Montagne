@@ -8,4 +8,14 @@
 
 body {
 background: var.$color1;
+font-family: var.$font1;
 }
+
+p {
+    font-family: var.$font2;
+}
+
+label {
+    font-family: var.$font2;
+}
+

@@ -1,0 +1,14 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin grid50 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@mixin m0a {
+    margin: 0 auto;
+}

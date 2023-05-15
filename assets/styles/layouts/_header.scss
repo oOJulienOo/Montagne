@@ -1,0 +1,40 @@
+@use"../settings/variables" as var;
+@use"../settings/mixins" as mix;
+
+header {
+    height: 100vh;
+    background: url(/assets/images/bg.jpg) center/cover fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        padding: 40px;
+        color: var.$color3;
+        font-size: 1.3rem;
+        font-family: var.$font3;
+        text-align: center;
+    }
+}
+
+h1 {
+    font-size: 5rem;
+    color: var.$color3;
+    text-transform: uppercase;
+    width: 750px;
+    text-align: center;
+    letter-spacing: 6px;
+    margin: 0 auto;
+}
+
+
+
+.header-title {
+    padding-top: 300px;
+}
+
+.header-txt {
+    @include mix.flex-center;
+    flex-direction: column;
+   }

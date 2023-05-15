@@ -1,1 +1,22 @@
-$color1:#303030;
+$color1:#ffffff;
+$color2:#e9e9e9;
+$color3:#f3f3f3;
+$color4:black;
+$color5:rgb(56, 56, 56);
+$color6:rgb(104, 104, 104);
+
+@font-face {
+    font-family: "font1";
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+$font1: font1, sans-serif;
+@font-face {
+    font-family: "font2";
+    src: url(/assets/fonts/Merriweather-Light.ttf);
+}
+$font2: font2, sans-serif;
+@font-face {
+    font-family: "font3";
+    src: url(/assets/fonts/Merriweather-Italic.ttf);
+}
+$font3: font3, sans-serif;
