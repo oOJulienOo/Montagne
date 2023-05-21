@@ -54,7 +54,7 @@
 .c-cont {
     display: grid;
     grid-template-columns: 20% 80%;
-    padding: 0 100px 0 40px;
+    padding-left: 40px;
     height: 100%;
     align-items: center;
     border-bottom: 1px solid rgba(128, 128, 128, 0.562);
@@ -80,7 +80,7 @@
 ul {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 260px;
     padding-left: 30px;
    
 }
