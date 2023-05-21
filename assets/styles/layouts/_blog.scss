@@ -1,0 +1,68 @@
+@use"../settings/variables" as var;
+@use"../settings/mixins" as mix;
+
+#blog {
+    width: 70%;
+    background: white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    // min-height: 900px;
+
+    p {
+        text-align: center
+    }
+}
+
+.blog-card:nth-of-type(1) {
+    border-right: 1px solid rgba(128, 128, 128, 0.562);
+}
+
+.blog-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    border-top: 1px solid rgba(128, 128, 128, 0.562);
+    padding-bottom: 60px;
+  }
+
+.card-title {
+    padding-top: 20px;
+
+    p {
+        font-weight: 300;
+    }
+
+    h3 {
+        padding: 20px 0px;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-align: center;
+        line-height: 33px;
+        }
+}
+
+.card-img {
+    width: 80%;
+    height: 18vw;
+}
+
+.img-g {
+    background: url(/assets/images/pic02.jpg) no-repeat center/cover;
+}
+
+.img-d {
+    background: url(/assets/images/pic03.jpg) no-repeat center/cover;
+}
+
+.card-txt {
+    padding: 60px;
+
+    p {
+        line-height: 40px;
+        text-align: left;
+        display: inline;
+    }
+}

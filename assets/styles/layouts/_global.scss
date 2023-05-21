@@ -6,16 +6,51 @@
     box-sizing: border-box;
 }
 
+
 body {
 background: var.$color1;
 font-family: var.$font1;
+background: url(/assets/images/bg.jpg) center/cover fixed;
 }
 
 p {
     font-family: var.$font2;
 }
 
+li {
+    list-style: none;
+    }
+
 label {
-    font-family: var.$font2;
+    font-family: var.$font1;
+    font-weight: 600;
+    text-transform: uppercase;
+        color: var.$color6;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
 }
+
+input {
+    font-size: 1rem;
+    padding: 15px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid var.$color6;
+    background-color: var.$color2;
+    }
+
+textarea {
+    background-color: var.$color2;
+}
+
+:focus {
+    outline: 1px solid var.$color6;
+  }
+
+a {
+    text-decoration: none;
+    color: var.$color2;
+    font-family: var.$font1;
+    }
 

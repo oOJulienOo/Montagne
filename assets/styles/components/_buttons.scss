@@ -1,0 +1,21 @@
+@use"../settings/variables" as var;
+@use"../settings/mixins" as mix;
+
+
+.button {
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 17px 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border: solid 2px;
+}
+
+    .button:hover {
+       color: var.$color2;
+       background: var.$color6;
+       border: 2px solid var.$color6;
+       }
