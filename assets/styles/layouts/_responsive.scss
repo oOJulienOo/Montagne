@@ -1,12 +1,203 @@
+@use"../settings/variables" as var;
+@use"../settings/mixins" as mix;
+
+
 @media screen and (max-width:1245px) {
+    
+    h1 {
+        font-size: 4rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
     .nav-txt {
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
+        }
     
     .nav-social {
         display: none;
     }
+    .nav-txt a {
+        color: var.$color3;
+    }
+
+    .nav-txt a:first-child {
+        color: var.$color3;
+        background: none;
+    }
+    .nav-txt a:hover {
+    background: none;
+    color: var.$color3;
+    }
+
+    .nav-txt a:first-of-type:hover {
+        color: var.$color3;
+        background: none;
+    }
+
+    .nav-txt li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .nav-txt a {
+    width: 33%;
+    }
+
+    .main-text h2 {
+        padding: 40px 0;
+        font-size: 2.5rem;
+        }
+
+    #blog {
+        display: block;
+    }
+
+    .blog-card:nth-of-type(1) {
+        border-right: none;
+    }
+
+    .card-img {
+        width: 65%;
+        height: 30vw;
+    }
+
+    #contact {
+        display: block;
+    }
+    .contact {
+        height: 500px;
+        border-left: none;
+    }
+
+    .c-cont:first-child {
+        border-top: 1px solid rgba(128, 128, 128, 0.562);
+    }
+    }
+
+    @media screen and (max-width:700px) {
+        h1 {
+            font-size: 2.5rem;
+            width: 420px;
+        }
+
+        header p {
+            font-size: 0.9rem;
+        }
+
+        .header-txt a {
+            width: 50px;
+            height: 50px;
+        }
+
+        .header-txt i {
+            font-size: 1.2rem;
+        }
 
     }
+        @media screen and (max-width:550px) {
+            .header-title {
+                padding-top: 150px;
+            }
+
+            h1 {
+                width: 315px;
+            }
+
+            header p {
+                width: 320px;
+            }
+
+            .header-txt a {
+                margin: 0;
+            }
+            .button {
+                font-size: 0.7rem;
+               }
+
+            nav {
+                width: 100%;
+            }
+
+            .nav-txt a {
+                font-size: 0.7rem;
+            }
+
+            #main {
+                width: 100%;
+            }
+
+            .main-text h2 {
+                font-size: 1.5rem;
+            }
+
+            .main-text p {
+                font-size: 0.9rem;
+                padding: 12%;
+            }
+
+            .container-img {
+                height: 55vw;
+            }
+            
+
+
+            #blog {
+                width: 100%;
+            p {
+                font-size: 0.8rem;
+            }
+            
+            } 
+
+            .card-txt p {
+                text-align: center;
+                display: inline-block;
+            }
+
+            .card-img {
+                height: 45vw;
+            }
+
+            #contact {
+                width: 100%;
+                margin: 0;
+            }
+
+            label {
+                font-size: 0.8rem;
+            }
+
+            input {
+
+                height: 40px;
+            }
+            .input-btn {
+                padding-bottom: 28px;
+            }
+            #message {
+                height: 150px;
+            }
+            .contact p  {
+                font-size: 0.7rem;
+            }
+            .contact h4   {
+                font-size: 0.8rem;
+            }
+          
+            .social ul {
+                width: 175px;
+             }
+            .social li {
+                padding: 0;
+                width: 35px;
+                height: 35px;
+            } 
+
+            .social i {
+                font-size: 0.9rem;
+            }
+            
+        }
